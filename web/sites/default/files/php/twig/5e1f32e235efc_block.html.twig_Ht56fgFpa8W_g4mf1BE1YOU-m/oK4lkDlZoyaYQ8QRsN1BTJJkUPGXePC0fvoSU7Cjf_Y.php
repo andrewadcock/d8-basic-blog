@@ -11,7 +11,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* block.html.twig */
+/* core/themes/bartik/templates/block.html.twig */
 class __TwigTemplate_cdc578fbd721620089c0c0c9cd2797b6ccc4f31da36db28e093ccd0fbb1efc00 extends \Twig\Template
 {
     public function __construct(Environment $env)
@@ -104,7 +104,7 @@ class __TwigTemplate_cdc578fbd721620089c0c0c9cd2797b6ccc4f31da36db28e093ccd0fbb1
 
     public function getTemplateName()
     {
-        return "block.html.twig";
+        return "core/themes/bartik/templates/block.html.twig";
     }
 
     public function isTraitable()
@@ -127,6 +127,6 @@ class __TwigTemplate_cdc578fbd721620089c0c0c9cd2797b6ccc4f31da36db28e093ccd0fbb1
 
     public function getSourceContext()
     {
-        return new Source("", "block.html.twig", "core/themes/bartik/templates/block.html.twig");
+        return new Source("", "core/themes/bartik/templates/block.html.twig", "/var/www/quotient/web/core/themes/bartik/templates/block.html.twig");
     }
 }
