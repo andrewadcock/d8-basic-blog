@@ -12,7 +12,7 @@
 /sites/*/private
 /sites/*/files-public
 /sites/*/files-private
-sites/*/files
+web/sites/*/files
 
 # Ignore paths that may contain temporary files
 /sites/*/translations
