@@ -19,12 +19,19 @@ $icon-font-path: '#{$theme-root}/bootstrap/assets/fonts/bootstrap/';
 
 
 // Colors
-$gray-base:                               #3C454F;
-$brand-primary:                           #30659B;
+$gray-base:                               rgb(60, 69, 79);
+$brand-primary:                           rgb(51, 102, 153);
+$body-bg:                                 rgb(170, 170, 170);
+$sidebar-bg:                              rgb(240, 240, 240);
+
 
 
 // Fonts
 $font-family-sans-serif:                  SegoeUI, Helvetica, serif;
+$font-size-h1:                            3.6rem; // 36px
+$font-size-h2:                            3.2rem; // 32px
+$font-size-h3:                            2.4rem; // 24px
+$font-size-h4:                            1.8rem; // 18px
 
 
 // Navbar
@@ -39,3 +46,9 @@ $navbar-default-link-active-color:        lighten($brand-primary, 10);
 $navbar-default-link-active-bg:           transparent;
 $navbar-default-link-disabled-color:      #ccc !default;
 $navbar-default-link-disabled-bg:         transparent !default;
+
+
+// Buttons
+$btn-info-color:                 #fff !default;
+$btn-info-bg:                    $brand-primary !default;
+$btn-info-border:                darken($btn-info-bg, 5%) !default;

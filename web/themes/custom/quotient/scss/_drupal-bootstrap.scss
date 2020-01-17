@@ -32,10 +32,9 @@ ol, ul {
 // Footer.
 .footer {
   background: $gray-base;
-  margin-top: 45px;
+  margin-top: 0;
   padding-top: 15px;
   padding-bottom: 16px;
-  border-top: 1px solid #E5E5E5;
   text-align: right;
   color: #fff;
 
@@ -83,4 +82,51 @@ p:last-child,
 
 .region-sidebar-first {
   background: #f0f0f0;
+  padding: $grid-gutter-width;
+}
+
+.region-content {
+  background: #fff;
+  padding-left: $grid-gutter-width;
+  padding-bottom: ($grid-gutter-width * 2);
+  padding-top: $grid-gutter-width;
+
+  article {
+    padding-bottom: 2.2rem;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 3.2rem;
+
+    &:first-of-type {
+
+      h2 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.main-container {
+  > .row {
+    background: linear-gradient(to right, $sidebar-bg, #fff);
+  }
+}
+
+.field--name-field-category {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: $sidebar-bg;
+  margin: 0.8rem 0;
+
+  .field--label,
+  .field--items {
+    display: inline-block
+  }
+}
+
+.author {
+  display: none;
+}
+
+.field--name-field-post-date {
+  font-size: 2.2rem;
 }
