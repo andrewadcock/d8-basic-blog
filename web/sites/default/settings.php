@@ -751,10 +751,8 @@ $settings['entity_update_backup'] = TRUE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
+
 $databases['default']['default'] = array (
   'database' => 'drupal',
   'username' => 'drupal',
@@ -766,3 +764,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_KXKqFuSiZmiQozrMQDFzOngUnBwz8iFozO_UlWmjbdbJC64duVB_EIJIruOc7taGXkVOdhXjGA/sync';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}

@@ -50,3 +50,4 @@ web/sites/*/files
 /web.config
 
 .idea
+web/themes/custom/quotient/node_modules
